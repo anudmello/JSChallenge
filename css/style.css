@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  cursor: pointer;
+}
+
+tr.selected {
+  background-color: #e0f7fa;
+}
+
+.toolbar button {
+  margin-right: 5px;
+}
+
+td input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+td input:focus {
+  outline: none;
+  background-color: #f1f1f1;
+}
